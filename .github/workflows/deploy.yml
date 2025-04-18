@@ -8,7 +8,8 @@ jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
     permissions:
-      contents: read    # 关键修复点
+      actions: read     # 关键修复点
+      contents: read
       pages: write
       id-token: write
 
@@ -28,7 +29,7 @@ jobs:
         run: npm run build
 
       - name: Upload artifact
-        uses: actions/upload-pages@v3  # 更新为 v3
+        uses: actions/upload-pages@v2  # 使用 v2
 
       - name: Deploy to Pages
-        uses: actions/deploy-pages@v3   # 更新为 v3
+        uses: actions/deploy-pages@v4   # 使用 v4
