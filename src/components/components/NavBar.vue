@@ -1,7 +1,7 @@
 <template>
   <div class="nav-bar">
     <div class="nav-container">
-      <div class="nav-title">小韩五日游</div>
+      <div class="nav-title">小韩七日游</div>
       <!-- <div class="nav-actions">
         <i class="fas fa-share-alt"></i>
         <i class="fas fa-ellipsis-v"></i>

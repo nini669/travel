@@ -57,6 +57,7 @@ export default {
       currentTab: 'schedule',
       currentDateIndex: 0,
       dates: [
+        { day: '5月1日', weekday: '周三' },
         { day: '5月2日', weekday: '周四' },
         { day: '5月3日', weekday: '周五' },
         { day: '5月4日', weekday: '周六' },

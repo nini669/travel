@@ -1,11 +1,16 @@
 export const travelData =  [
   {
-    date: '5月2日',
+    date: '5月1日',
     schedule: [],
     transportation: [
       {
         type: 'train',
         route: '柳州-桂林',
+        time: '待定'
+      },
+      {
+        type: 'plane',
+        route: '桂林-海口 海航HU7089',
         time: '22:40-00:05'
       }
     ],
@@ -16,7 +21,7 @@ export const travelData =  [
     image: 'https://readdy.ai/api/search-image?query=Beautiful%20coastal%20hotel%20with%20ocean%20view%2C%20luxury%20resort%20in%20Haikou%20with%20palm%20trees%20and%20swimming%20pool%2C%20golden%20sunset%2C%20professional%20travel%20photography%2C%20high%20resolution%2C%20no%20people%2C%20serene%20atmosphere&width=800&height=480&seq=1&orientation=landscape'
   },
   {
-    date: '5月3日',
+    date: '5月2日',
     schedule: [
       {
         time: '上午',
@@ -35,7 +40,7 @@ export const travelData =  [
     transportation: [
       {
         type: 'plane',
-        route: '海口-首尔仁川机场',
+        route: '海口-首尔仁川机场 海航HU449',
         time: '16:30-21:30'
       }
     ],
@@ -45,7 +50,7 @@ export const travelData =  [
     image: 'https://readdy.ai/api/search-image?query=Beautiful%20beach%20scenery%20with%20observation%20deck%2C%20tropical%20paradise%20with%20clear%20blue%20water%2C%20golden%20sand%2C%20palm%20trees%2C%20sunny%20day%2C%20professional%20landscape%20photography%2C%20no%20people%2C%20serene%20coastal%20view&width=800&height=480&seq=2&orientation=landscape'
   },
   {
-    date: '5月4日',
+    date: '5月3日',
     schedule: [
       {
         time: '上午',
@@ -71,6 +76,34 @@ export const travelData =  [
       food: '汉南洞24小时土豆脊骨汤、BHC炸鸡、烤肉'
     },
     image: 'https://readdy.ai/api/search-image?query=Hangang%20Park%20in%20Seoul%20with%20river%20view%2C%20cherry%20blossoms%2C%20modern%20city%20skyline%2C%20beautiful%20green%20spaces%2C%20walking%20paths%20along%20the%20river%2C%20spring%20season%2C%20vibrant%20atmosphere%2C%20no%20people%2C%20professional%20cityscape%20photography&width=800&height=480&seq=3&orientation=landscape'
+  },
+  {
+    date: '5月4日',
+    schedule: [
+      {
+        time: '上午',
+        places: ['首尔-水原'],
+        details: ['地铁1个多小时；火车半小时']
+      },
+      {
+        time: '下午',
+        places: ['🚗路线：水原站-华西门-Mongtedeu（몽테드 小率家）-南门炸鸡（남문통닭）-壁画村-La Piena咖啡厅（라피에나）-热气球-星空图书馆（별마당도서관）'],
+        details: ['人生汤饭、水原炸鸡']
+      },
+      {
+        time: '晚上',
+        places: ['首尔'],
+        details: ['欣赏首尔夜景']
+      }
+    ],
+    accommodation: {
+      name: '领导者酒店'
+    },
+    // notes: {
+    //   shopping: '太创、OLIVEyoung、emis、Nvunyu、阿迪、ABC-mart、elephant、新世界免税、人生四格、aland、minibrand（便宜）',
+    //   food: '汉南洞24小时土豆脊骨汤、BHC炸鸡、烤肉'
+    // },
+    // image: 'https://readdy.ai/api/search-image?query=Hangang%20Park%20in%20Seoul%20with%20river%20view%2C%20cherry%20blossoms%2C%20modern%20city%20skyline%2C%20beautiful%20green%20spaces%2C%20walking%20paths%20along%20the%20river%2C%20spring%20season%2C%20vibrant%20atmosphere%2C%20no%20people%2C%20professional%20cityscape%20photography&width=800&height=480&seq=3&orientation=landscape'
   },
   {
     date: '5月5日',
@@ -152,18 +185,13 @@ export const travelData =  [
       },
       {
         type: 'plane',
-        route: '首尔-厦门',
+        route: '首尔-厦门 厦航MF872',
         time: '13:30-15:20'
       },
       {
-        type: 'train',
-        route: '仁川T2-高崎T3',
+        type: 'plane',
+        route: '高崎T3-柳州 厦航MF8637',
         time: '20:15-22:05'
-      },
-      {
-        type: 'train',
-        route: '高崎T3-柳州',
-        time: '行李直达，含餐食'
       }
     ],
     accommodation: {
